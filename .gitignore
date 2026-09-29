@@ -1,0 +1,17 @@
+node_modules/
+dist/
+release/
+.local-data/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+playwright-report/
+test-results/
+coverage/
+*.long-canvas.json
+*.psd
+*.psb
+*.ai

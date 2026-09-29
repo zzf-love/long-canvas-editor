@@ -1,0 +1,790 @@
+{
+  "schemaVersion": 1,
+  "id": "long-canvas-demo-v1",
+  "title": "Long Canvas 示例工程",
+  "width": 790,
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "pages": [
+    {
+      "id": "page-01",
+      "title": "01 开始一幅长画布",
+      "width": 790,
+      "height": 960,
+      "sourceWidth": 790,
+      "defs": "<linearGradient id=\"mint\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop stop-color=\"#bee0cf\"/><stop offset=\"1\" stop-color=\"#7ab39e\"/></linearGradient>",
+      "guides": [],
+      "elements": [
+        {
+          "id": "background",
+          "name": "锁定背景",
+          "type": "shape",
+          "markup": "<rect x=\"0\" y=\"0\" width=\"790\" height=\"960\" rx=\"0\" fill=\"#eef5f3\"/>",
+          "bbox": {
+            "x": 0,
+            "y": 0,
+            "width": 790,
+            "height": 960
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": true,
+          "hidden": false
+        },
+        {
+          "id": "brand",
+          "name": "LONG CANVAS",
+          "type": "text",
+          "markup": "<text x=\"56\" y=\"78\" font-family=\"PingFang SC, sans-serif\" font-size=\"20\" font-weight=\"600\" fill=\"#466e67\" data-line-height=\"1.35\">LONG CANVAS</text>",
+          "bbox": {
+            "x": 56,
+            "y": 58,
+            "width": 660,
+            "height": 20.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "headline",
+          "name": "把想法 连成一幅长画布",
+          "type": "text",
+          "markup": "<text x=\"56\" y=\"206\" font-family=\"PingFang SC, sans-serif\" font-size=\"56\" font-weight=\"600\" fill=\"#193e3a\" data-line-height=\"1.35\"><tspan x=\"56\" dy=\"0\">把想法</tspan><tspan x=\"56\" dy=\"75.60000000000001\">连成一幅长画布</tspan></text>",
+          "bbox": {
+            "x": 56,
+            "y": 150,
+            "width": 660,
+            "height": 131.6
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "intro",
+          "name": "选择、编辑、拖动，让每一屏自然衔接。",
+          "type": "text",
+          "markup": "<text x=\"59\" y=\"336\" font-family=\"PingFang SC, sans-serif\" font-size=\"23\" font-weight=\"400\" fill=\"#4c6c67\" data-line-height=\"1.35\">选择、编辑、拖动，让每一屏自然衔接。</text>",
+          "bbox": {
+            "x": 59,
+            "y": 313,
+            "width": 660,
+            "height": 23.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "accent",
+          "name": "橙色强调线",
+          "type": "shape",
+          "markup": "<rect x=\"58\" y=\"380\" width=\"70\" height=\"5\" rx=\"3\" fill=\"#e2905a\"/>",
+          "bbox": {
+            "x": 58,
+            "y": 380,
+            "width": 70,
+            "height": 5
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "orb",
+          "name": "薄荷渐变圆",
+          "type": "shape",
+          "markup": "<circle cx=\"553\" cy=\"592\" r=\"140\" fill=\"url(#mint)\"/>",
+          "bbox": {
+            "x": 413,
+            "y": 452,
+            "width": 280,
+            "height": 280
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "paper-back",
+          "name": "后方卡片",
+          "type": "shape",
+          "markup": "<rect x=\"114\" y=\"487\" width=\"330\" height=\"250\" rx=\"24\" fill=\"#d5e5de\"/>",
+          "bbox": {
+            "x": 114,
+            "y": 487,
+            "width": 330,
+            "height": 250
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "paper-front",
+          "name": "前方卡片",
+          "type": "shape",
+          "markup": "<rect x=\"83\" y=\"519\" width=\"330\" height=\"250\" rx=\"24\" fill=\"#ffffff\"/>",
+          "bbox": {
+            "x": 83,
+            "y": 519,
+            "width": 330,
+            "height": 250
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "card-heading",
+          "name": "从一块画布开始",
+          "type": "text",
+          "markup": "<text x=\"108\" y=\"577\" font-family=\"PingFang SC, sans-serif\" font-size=\"27\" font-weight=\"600\" fill=\"#193e3a\" data-line-height=\"1.35\">从一块画布开始</text>",
+          "bbox": {
+            "x": 108,
+            "y": 550,
+            "width": 280,
+            "height": 27.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "card-description",
+          "name": "双击文字进行编辑 用右侧面板调整样式",
+          "type": "text",
+          "markup": "<text x=\"109\" y=\"624\" font-family=\"PingFang SC, sans-serif\" font-size=\"20\" font-weight=\"400\" fill=\"#658078\" data-line-height=\"1.35\"><tspan x=\"109\" dy=\"0\">双击文字进行编辑</tspan><tspan x=\"109\" dy=\"27.0\">用右侧面板调整样式</tspan></text>",
+          "bbox": {
+            "x": 109,
+            "y": 604,
+            "width": 280,
+            "height": 47.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "chip",
+          "name": "可链接色块",
+          "type": "shape",
+          "markup": "<rect x=\"109\" y=\"707\" width=\"118\" height=\"34\" rx=\"17\" fill=\"#22483f\"/>",
+          "bbox": {
+            "x": 109,
+            "y": 707,
+            "width": 118,
+            "height": 34
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false,
+          "linkId": "hero-chip"
+        },
+        {
+          "id": "chip-label",
+          "name": "自由组合",
+          "type": "text",
+          "markup": "<text x=\"129\" y=\"731\" font-family=\"PingFang SC, sans-serif\" font-size=\"18\" font-weight=\"500\" fill=\"#ffffff\" data-line-height=\"1.35\">自由组合</text>",
+          "bbox": {
+            "x": 129,
+            "y": 713,
+            "width": 84,
+            "height": 18.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false,
+          "linkId": "hero-chip"
+        },
+        {
+          "id": "cross-page",
+          "name": "跨屏圆环 · 可拖动",
+          "type": "shape",
+          "markup": "<circle cx=\"618\" cy=\"943\" r=\"128\" fill=\"none\" stroke=\"#edaa72\" stroke-width=\"35\"/>",
+          "bbox": {
+            "x": 472.5,
+            "y": 797.5,
+            "width": 291,
+            "height": 291
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false,
+          "opacity": 0.8
+        },
+        {
+          "id": "cross-hint",
+          "name": "这个圆环跨越了分屏边界 ↓",
+          "type": "text",
+          "markup": "<text x=\"57\" y=\"891\" font-family=\"PingFang SC, sans-serif\" font-size=\"20\" font-weight=\"400\" fill=\"#657b73\" data-line-height=\"1.35\">这个圆环跨越了分屏边界 ↓</text>",
+          "bbox": {
+            "x": 57,
+            "y": 871,
+            "width": 660,
+            "height": 20.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "page-02",
+      "title": "02 组织你的内容",
+      "width": 790,
+      "height": 960,
+      "sourceWidth": 790,
+      "defs": "",
+      "guides": [],
+      "elements": [
+        {
+          "id": "background",
+          "name": "锁定背景",
+          "type": "shape",
+          "markup": "<rect x=\"0\" y=\"0\" width=\"790\" height=\"960\" rx=\"0\" fill=\"#f4eee5\"/>",
+          "bbox": {
+            "x": 0,
+            "y": 0,
+            "width": 790,
+            "height": 960
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": true,
+          "hidden": false
+        },
+        {
+          "id": "section-label",
+          "name": "02 / ORGANIZE",
+          "type": "text",
+          "markup": "<text x=\"57\" y=\"160\" font-family=\"PingFang SC, sans-serif\" font-size=\"18\" font-weight=\"500\" fill=\"#8a7566\" data-line-height=\"1.35\">02 / ORGANIZE</text>",
+          "bbox": {
+            "x": 57,
+            "y": 142,
+            "width": 660,
+            "height": 18.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "headline",
+          "name": "每一层，都可以调整",
+          "type": "text",
+          "markup": "<text x=\"56\" y=\"224\" font-family=\"PingFang SC, sans-serif\" font-size=\"42\" font-weight=\"600\" fill=\"#193e3a\" data-line-height=\"1.35\">每一层，都可以调整</text>",
+          "bbox": {
+            "x": 56,
+            "y": 182,
+            "width": 660,
+            "height": 42.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "card-0",
+          "name": "圆角卡片",
+          "type": "shape",
+          "markup": "<rect x=\"56\" y=\"256\" width=\"678\" height=\"143\" rx=\"20\" fill=\"#ffffff\"/>",
+          "bbox": {
+            "x": 56,
+            "y": 256,
+            "width": 678,
+            "height": 143
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "number-box-0",
+          "name": "序号底色",
+          "type": "shape",
+          "markup": "<rect x=\"80\" y=\"283\" width=\"69\" height=\"69\" rx=\"18\" fill=\"#c8ded0\"/>",
+          "bbox": {
+            "x": 80,
+            "y": 283,
+            "width": 69,
+            "height": 69
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false,
+          "linkId": "feature-0"
+        },
+        {
+          "id": "number-0",
+          "name": "01",
+          "type": "text",
+          "markup": "<text x=\"97\" y=\"328\" font-family=\"PingFang SC, sans-serif\" font-size=\"25\" font-weight=\"600\" fill=\"#254944\" data-line-height=\"1.35\">01</text>",
+          "bbox": {
+            "x": 97,
+            "y": 303,
+            "width": 50,
+            "height": 25.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false,
+          "linkId": "feature-0"
+        },
+        {
+          "id": "heading-0",
+          "name": "图层与链接",
+          "type": "text",
+          "markup": "<text x=\"176\" y=\"311\" font-family=\"PingFang SC, sans-serif\" font-size=\"27\" font-weight=\"600\" fill=\"#193e3a\" data-line-height=\"1.35\">图层与链接</text>",
+          "bbox": {
+            "x": 176,
+            "y": 284,
+            "width": 480,
+            "height": 27.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "body-0",
+          "name": "分开编辑，也可以一起移动。",
+          "type": "text",
+          "markup": "<text x=\"176\" y=\"355\" font-family=\"PingFang SC, sans-serif\" font-size=\"21\" font-weight=\"400\" fill=\"#6b7f79\" data-line-height=\"1.35\">分开编辑，也可以一起移动。</text>",
+          "bbox": {
+            "x": 176,
+            "y": 334,
+            "width": 500,
+            "height": 21.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "card-1",
+          "name": "圆角卡片",
+          "type": "shape",
+          "markup": "<rect x=\"56\" y=\"431\" width=\"678\" height=\"143\" rx=\"20\" fill=\"#ffffff\"/>",
+          "bbox": {
+            "x": 56,
+            "y": 431,
+            "width": 678,
+            "height": 143
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "number-box-1",
+          "name": "序号底色",
+          "type": "shape",
+          "markup": "<rect x=\"80\" y=\"458\" width=\"69\" height=\"69\" rx=\"18\" fill=\"#e9d9c7\"/>",
+          "bbox": {
+            "x": 80,
+            "y": 458,
+            "width": 69,
+            "height": 69
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false,
+          "linkId": "feature-1"
+        },
+        {
+          "id": "number-1",
+          "name": "02",
+          "type": "text",
+          "markup": "<text x=\"97\" y=\"503\" font-family=\"PingFang SC, sans-serif\" font-size=\"25\" font-weight=\"600\" fill=\"#254944\" data-line-height=\"1.35\">02</text>",
+          "bbox": {
+            "x": 97,
+            "y": 478,
+            "width": 50,
+            "height": 25.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false,
+          "linkId": "feature-1"
+        },
+        {
+          "id": "heading-1",
+          "name": "文字与版式",
+          "type": "text",
+          "markup": "<text x=\"176\" y=\"486\" font-family=\"PingFang SC, sans-serif\" font-size=\"27\" font-weight=\"600\" fill=\"#193e3a\" data-line-height=\"1.35\">文字与版式</text>",
+          "bbox": {
+            "x": 176,
+            "y": 459,
+            "width": 480,
+            "height": 27.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "body-1",
+          "name": "保持清晰层级，自由调整间距。",
+          "type": "text",
+          "markup": "<text x=\"176\" y=\"530\" font-family=\"PingFang SC, sans-serif\" font-size=\"21\" font-weight=\"400\" fill=\"#6b7f79\" data-line-height=\"1.35\">保持清晰层级，自由调整间距。</text>",
+          "bbox": {
+            "x": 176,
+            "y": 509,
+            "width": 500,
+            "height": 21.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "card-2",
+          "name": "圆角卡片",
+          "type": "shape",
+          "markup": "<rect x=\"56\" y=\"606\" width=\"678\" height=\"143\" rx=\"20\" fill=\"#ffffff\"/>",
+          "bbox": {
+            "x": 56,
+            "y": 606,
+            "width": 678,
+            "height": 143
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "number-box-2",
+          "name": "序号底色",
+          "type": "shape",
+          "markup": "<rect x=\"80\" y=\"633\" width=\"69\" height=\"69\" rx=\"18\" fill=\"#d3dfea\"/>",
+          "bbox": {
+            "x": 80,
+            "y": 633,
+            "width": 69,
+            "height": 69
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false,
+          "linkId": "feature-2"
+        },
+        {
+          "id": "number-2",
+          "name": "03",
+          "type": "text",
+          "markup": "<text x=\"97\" y=\"678\" font-family=\"PingFang SC, sans-serif\" font-size=\"25\" font-weight=\"600\" fill=\"#254944\" data-line-height=\"1.35\">03</text>",
+          "bbox": {
+            "x": 97,
+            "y": 653,
+            "width": 50,
+            "height": 25.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false,
+          "linkId": "feature-2"
+        },
+        {
+          "id": "heading-2",
+          "name": "跨屏与导出",
+          "type": "text",
+          "markup": "<text x=\"176\" y=\"661\" font-family=\"PingFang SC, sans-serif\" font-size=\"27\" font-weight=\"600\" fill=\"#193e3a\" data-line-height=\"1.35\">跨屏与导出</text>",
+          "bbox": {
+            "x": 176,
+            "y": 634,
+            "width": 480,
+            "height": 27.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "body-2",
+          "name": "在连续画布上编辑，按屏导出。",
+          "type": "text",
+          "markup": "<text x=\"176\" y=\"705\" font-family=\"PingFang SC, sans-serif\" font-size=\"21\" font-weight=\"400\" fill=\"#6b7f79\" data-line-height=\"1.35\">在连续画布上编辑，按屏导出。</text>",
+          "bbox": {
+            "x": 176,
+            "y": 684,
+            "width": 500,
+            "height": 21.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "footer-note",
+          "name": "试试：按住 Shift 多选，再点击「链接」。",
+          "type": "text",
+          "markup": "<text x=\"58\" y=\"848\" font-family=\"PingFang SC, sans-serif\" font-size=\"21\" font-weight=\"400\" fill=\"#6e7971\" data-line-height=\"1.35\">试试：按住 Shift 多选，再点击「链接」。</text>",
+          "bbox": {
+            "x": 58,
+            "y": 827,
+            "width": 660,
+            "height": 21.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "page-03",
+      "title": "03 保存并分享",
+      "width": 790,
+      "height": 800,
+      "sourceWidth": 790,
+      "defs": "",
+      "guides": [],
+      "elements": [
+        {
+          "id": "background",
+          "name": "锁定背景",
+          "type": "shape",
+          "markup": "<rect x=\"0\" y=\"0\" width=\"790\" height=\"800\" rx=\"0\" fill=\"#193e3a\"/>",
+          "bbox": {
+            "x": 0,
+            "y": 0,
+            "width": 790,
+            "height": 800
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": true,
+          "hidden": false
+        },
+        {
+          "id": "section-label",
+          "name": "03 / MAKE IT YOURS",
+          "type": "text",
+          "markup": "<text x=\"56\" y=\"84\" font-family=\"PingFang SC, sans-serif\" font-size=\"18\" font-weight=\"500\" fill=\"#b7d3c6\" data-line-height=\"1.35\">03 / MAKE IT YOURS</text>",
+          "bbox": {
+            "x": 56,
+            "y": 66,
+            "width": 660,
+            "height": 18.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "headline",
+          "name": "把下一份灵感 放到这里",
+          "type": "text",
+          "markup": "<text x=\"56\" y=\"202\" font-family=\"PingFang SC, sans-serif\" font-size=\"54\" font-weight=\"600\" fill=\"#fffaf2\" data-line-height=\"1.35\"><tspan x=\"56\" dy=\"0\">把下一份灵感</tspan><tspan x=\"56\" dy=\"72.9\">放到这里</tspan></text>",
+          "bbox": {
+            "x": 56,
+            "y": 148,
+            "width": 660,
+            "height": 126.9
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "intro",
+          "name": "替换示例文字，导入自己的图片。 工程保存在本机，也可以下载完整工程文件。",
+          "type": "text",
+          "markup": "<text x=\"59\" y=\"376\" font-family=\"PingFang SC, sans-serif\" font-size=\"24\" font-weight=\"400\" fill=\"#c4d8cf\" data-line-height=\"1.35\"><tspan x=\"59\" dy=\"0\">替换示例文字，导入自己的图片。</tspan><tspan x=\"59\" dy=\"32.400000000000006\">工程保存在本机，也可以下载完整工程文件。</tspan></text>",
+          "bbox": {
+            "x": 59,
+            "y": 352,
+            "width": 660,
+            "height": 56.400000000000006
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "arch",
+          "name": "原创拱形组合",
+          "type": "shape",
+          "markup": "<path d=\"M502 707V599a74 74 0 0 1 148 0v108Z\" fill=\"#e8ab76\"/><circle cx=\"680\" cy=\"628\" r=\"36\" fill=\"#b9d7c7\"/><rect x=\"449\" y=\"710\" width=\"281\" height=\"8\" rx=\"4\" fill=\"#6e9487\"/>",
+          "bbox": {
+            "x": 449,
+            "y": 525,
+            "width": 281,
+            "height": 193
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "export-chip",
+          "name": "导出提示底色",
+          "type": "shape",
+          "markup": "<rect x=\"58\" y=\"488\" width=\"235\" height=\"54\" rx=\"27\" fill=\"#c8ded0\"/>",
+          "bbox": {
+            "x": 58,
+            "y": 488,
+            "width": 235,
+            "height": 54
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "export-label",
+          "name": "工程 / PNG / SVG",
+          "type": "text",
+          "markup": "<text x=\"82\" y=\"523\" font-family=\"PingFang SC, sans-serif\" font-size=\"21\" font-weight=\"600\" fill=\"#193e3a\" data-line-height=\"1.35\">工程 / PNG / SVG</text>",
+          "bbox": {
+            "x": 82,
+            "y": 502,
+            "width": 220,
+            "height": 21.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        },
+        {
+          "id": "footer",
+          "name": "LONG CANVAS · 开始你的创作",
+          "type": "text",
+          "markup": "<text x=\"57\" y=\"727\" font-family=\"PingFang SC, sans-serif\" font-size=\"18\" font-weight=\"400\" fill=\"#b7d3c6\" data-line-height=\"1.35\">LONG CANVAS · 开始你的创作</text>",
+          "bbox": {
+            "x": 57,
+            "y": 709,
+            "width": 660,
+            "height": 18.0
+          },
+          "tx": 0,
+          "ty": 0,
+          "sx": 1,
+          "sy": 1,
+          "locked": false,
+          "hidden": false
+        }
+      ]
+    }
+  ],
+  "assets": {}
+}

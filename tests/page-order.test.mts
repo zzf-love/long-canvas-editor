@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {applyPageUpdate} from '../src/pageUpdate';
+import type {Project,DesignElement} from '../src/types';
+const e=(id:string):DesignElement=>({id,name:id,type:'group',markup:'',bbox:{x:0,y:0,width:10,height:10},tx:3,ty:7,sx:1,sy:1,hidden:false,locked:false});
+const a=e('photo'),b={...e('icon'),linkId:'user-link'},c=e('caption');
+const project:Project={schemaVersion:1,id:'p',width:790,title:'Test',updatedAt:new Date().toISOString(),assets:{},pages:[{id:'hero',title:'hero',width:790,height:1306,sourceWidth:750,defs:'',guides:[],elements:[a,b,c]}]};
+const patch={kind:'long-canvas-page-update' as const,schemaVersion:1 as const,targetProjectId:'p',pageId:'hero',sourceWidth:750,title:'icons',removeElementIds:[],elements:[{...e('icon'),markup:'<circle r="4"/>'}],assets:{},preserveLayerOrder:true};
+const result=applyPageUpdate(project,patch);
+assert.deepEqual(result.pages[0].elements.map(e=>e.id),['photo','icon','caption']);
+assert.equal(result.pages[0].elements[0],a);assert.equal(result.pages[0].elements[2],c);
+assert.equal(result.pages[0].elements[1].linkId,'user-link');
+assert.equal(result.pages[0].elements[1].markup,'<circle r="4"/>');
+assert.deepEqual(applyPageUpdate(result,patch),result);
+assert.deepEqual(applyPageUpdate(project,{...patch,preserveLayerOrder:false}).pages[0].elements.map(e=>e.id),['photo','caption','icon']);
+console.log('PASS scoped icon update keeps original order, linked metadata, unrelated edits, idempotence and older update behavior.');
